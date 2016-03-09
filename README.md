@@ -51,7 +51,7 @@ Build the library
 
 Build untrunc
 
-    g++ -o untrunc file.cpp main.cpp track.cpp atom.cpp mp4.cpp -I./libav-0.8.7 -L./libav-0.8.7/libavformat -lavformat -L./libav-0.8.7/libavcodec -lavcodec -L./libav-0.8.7/libavutil -lavutil -lpthread -lz
+    g++ -o untrunc file.cpp main.cpp track.cpp atom.cpp mp4.cpp -I./libav-0.8.7 -L./libav-0.8.7/libavformat -lavformat -L./libav-0.8.7/libavcodec -lavcodec -L./libav-0.8.7/libavutil -lavutil -lpthread -lz -L./libav-0.8.7/libavresample -lavresample
 
 ## Arch package
 
